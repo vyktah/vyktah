@@ -1,5 +1,6 @@
 Through this blog I hope to document my work at improving my coding skill via a series or projects:
 
+1. [About](/about)
 1. greeting card e-commerce 
 1. berievement noticeboard
 1. financial budgeting website 
