@@ -1,1 +1,2 @@
-![Test Image](./test.jpg)
+test
+![Test Image](images/foo.jpg)
