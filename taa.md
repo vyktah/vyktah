@@ -5,7 +5,7 @@
 {% for file in site.static_files %}
 
     {{ forloop.index  }}
-    {% include_relativ {{file.path}} %}
+    {% include_relative {{file.path}} %}
     {{file.modified_time}} 
     {{file.name}} 
     {{file.basename}}
