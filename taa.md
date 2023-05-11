@@ -7,4 +7,6 @@
 {% endfor %}
 {{site.posts}}
 {{site.collections}}
+{{site.documents}}
+{{site.articles}}
 <image src="images/foo.jpg" alt="foo" width="500">
