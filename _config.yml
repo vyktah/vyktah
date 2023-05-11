@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+theme: minimal-mistakes-jekyl
 markdown: kramdown
 
 collections_dir: .
