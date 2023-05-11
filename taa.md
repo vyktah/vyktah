@@ -6,12 +6,12 @@
 
     {{ forloop.index  }}
     {{file.path}} 
-    {% render file.path %}
+    {% include file.path %}
     {{file.modified_time}} 
     {{file.name}} 
-    {% render file.name %}
+    {% include file.name %}
     {{file.basename}}
-    {% render file.basename %}
+    {% include file.basename %}
     {{file.extname}}
     
 {% endfor %}
