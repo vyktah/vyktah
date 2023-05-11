@@ -1,1 +1,0 @@
-![jay]('/tmp/jay.jpg')
