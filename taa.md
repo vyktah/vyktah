@@ -5,4 +5,5 @@
 {% for article in site.articles %}
     {{ forloop.index  }}yes
 {% endfor %}
+{{site.posts}}
 <image src="images/foo.jpg" alt="foo" width="500">
