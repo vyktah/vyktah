@@ -1,1 +1,0 @@
-![jay](images/jay.jpg)
