@@ -8,10 +8,8 @@ collections:
     articles:
       output: true
       
-name: rip
+name: rip.ke
 
-site:
-    name: rip.ke
 
 plugins:
   - jekyll-paginate
