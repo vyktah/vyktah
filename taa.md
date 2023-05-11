@@ -6,4 +6,5 @@
     {{ forloop.index  }}yes
 {% endfor %}
 {{site.posts}}
+{{site.collections}}
 <image src="images/foo.jpg" alt="foo" width="500">
