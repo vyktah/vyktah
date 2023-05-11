@@ -1,5 +1,6 @@
 remote_theme: vyncem/minimal-mistakes
 
+
 markdown: kramdown
 
 collections_dir: .
