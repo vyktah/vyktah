@@ -12,4 +12,5 @@
     
 {% endfor %}
 {% include_relative test.md %}
+{% include_relative articles/one.md %}
 <image src="images/foo.jpg" alt="foo" width="500">
