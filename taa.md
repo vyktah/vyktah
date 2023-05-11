@@ -2,12 +2,13 @@
 # front matter tells Jekyll to process Liquid
 ---
 {{ "Hello world!" | number_of_words }}
-{% for article in site.articles %}
-    {{ forloop.index  }}yes
+{% for file in site.static_files %}
+    {{ forloop.index  }}
+    {{file.path}} 
+    {{file.modified_time}} 
+    {{file.name}} 
+    {{file.basename}}
+    {{file.basename}}
 {% endfor %}
-{{site.posts}}
-{{site.collections}}
-{{site.documents}}
-{{site.articles}}
-{{site.static_files}}
+
 <image src="images/foo.jpg" alt="foo" width="500">
