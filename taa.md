@@ -5,12 +5,11 @@
 {% for file in site.static_files %}
 
     {{ forloop.index  }}
-    {% include_relative {{file.path}} %}
     {{file.modified_time}} 
     {{file.name}} 
     {{file.basename}}
     {{file.extname}}
     
 {% endfor %}
-
+{% include_relative test.md %}
 <image src="images/foo.jpg" alt="foo" width="500">
