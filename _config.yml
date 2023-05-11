@@ -1,4 +1,4 @@
-theme: minimal-mistakes-jekyl
+remote_theme: minimal-mistakes-jekyl
 markdown: kramdown
 
 collections_dir: .
