@@ -9,4 +9,5 @@
 {{site.collections}}
 {{site.documents}}
 {{site.articles}}
+{{site.static_files}}
 <image src="images/foo.jpg" alt="foo" width="500">
