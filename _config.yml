@@ -1,2 +1,7 @@
 theme: jekyll-theme-hacker
 markdown: kramdown
+
+collections_dir: .
+collections:
+    articles:
+      output: true
